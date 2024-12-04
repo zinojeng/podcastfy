@@ -1,0 +1,49 @@
+# 大檔案
+*.pdf
+*.jpg
+*.png
+*.mp3
+*.mp4
+*.whl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 資料目錄
+data/audio/*
+data/transcripts/*
+data/images/*
+data/pdf/*
+data/urls/*
+tests/data/*
+!data/audio/.gitkeep
+!data/transcripts/.gitkeep
+!data/images/.gitkeep
+!data/pdf/.gitkeep
+!data/urls/.gitkeep
+!tests/data/.gitkeep
+
+# 系統檔案
+.DS_Store
+.idea/
+.vscode/
+*.swp
